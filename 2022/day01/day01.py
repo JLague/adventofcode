@@ -4,7 +4,7 @@ calories = [0]
 i = 0
 
 # Read input and get sum by elf
-with open("input.txt") as f:
+with open("input") as f:
     for line in f:
         if line == '\n':
             calories.append(0)
